@@ -23,7 +23,7 @@ streamlit.dataframe(fruits_to_show)
 # New Section to display fruityvice api response
 #fruityvice_reponse = requests.get("https://fruityvice.com/api/fruit/watermelon")
 #streamlit.text(fruityvice_reponse)
-streamlit.header('Fruiyvice Fruit Advice')
+streamlit.header('Fruit Fruit Advice')
 fruityvice_reponse = requests.get("https://fruityvice.com/api/fruit/watermelon")
 #streamlit.text(fruityvice_reponse.json())          
 
